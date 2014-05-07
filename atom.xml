@@ -4,7 +4,7 @@
   <title><![CDATA[evolved.io]]></title>
   <link href="http://evolved.github.io/atom.xml" rel="self"/>
   <link href="http://evolved.github.io/"/>
-  <updated>2014-05-07T19:58:40+02:00</updated>
+  <updated>2014-05-07T20:11:10+02:00</updated>
   <id>http://evolved.github.io/</id>
   <author>
     <name><![CDATA[Malte Baumann, Dennis Gaidel, Sascha Schwabbauer]]></name>
@@ -12,14 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[3 Useful JavaScript Tricks]]></title>
-    <link href="http://evolved.github.io/blog/2014/05/05/3-useful-javascript-tricks/"/>
-    <updated>2014-05-05T14:48:24+02:00</updated>
-    <id>http://evolved.github.io/blog/2014/05/05/3-useful-javascript-tricks</id>
-    <content type="html"><![CDATA[<p>Testtest</p>
-]]></content>
-  </entry>
   
 </feed>
