@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            evolved.io
+tagline:          'A Jekyll theme'
+description:      'Evolved is a full service digital agency headquartered in Germany. We transform brands and build businesses.'
+url:              http://www.evolved.io
+
+author:
+  name:           'Dennis Gaidel'
+  url:            https://twitter.com/k1ckedinthehead
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/evolved/evolved.github.io
