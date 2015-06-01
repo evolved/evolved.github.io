@@ -1,0 +1,612 @@
+/** ********************************************** **
+	@Author			Acto Design
+	@Website		http://actodesign.com/
+	@Created	11:55 AM Monday, May 11, 2015
+	TABLE CONTENTS
+	-------------------------------
+		01. All Supported Media Queries
+*************************************************** **/
+/** 01. All Supported Media Queries
+ **************************************************************** **/
+@media (min-width: 1200px) {
+}
+@media (max-width: 1199px) {
+    .project.even .lft,.project.odd .lft,.project.odd .rgt,.project.even .rgt {
+        width: 100%;
+        background: #5abd7d;
+    }
+    .project.even .project-arrow,.project.odd .project-arrow {
+        display: none;
+    }
+    .project.even .lft .bang,.project.odd .rgt .bang {
+        max-width: 100%;
+        float: left;
+        padding: 25px;
+    }
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .overlay.overlay-2 .fa {
+        margin-top: 15px;
+    }
+    .header-hero h1 {
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .caption-img-holder .space150 {
+        display: none;
+    }
+    .overlay-circle {
+        width: 200px;
+    }
+    .overlay-circle .circle {
+        min-height: 200px;
+    }
+    .overlay-circle .circle-text {
+        bottom: 45px;
+    }
+    .slider-mid .get-started {
+        bottom: 0px;
+    }
+    .slider-mid .carousel-indicators {
+        top: 90px !important;
+    }
+    .slider-mid .carousel-caption {
+        top: 90px !important;
+    }
+    .parallax-slide #home-carousel .carousel-indicators {
+        top: 75px;
+    }
+    .nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #home-carousel h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #home-carousel .carousel-indicators {
+        top: 16px;
+    }
+    .circle-text {
+        bottom: 85px;
+    }
+    .circle-text span {
+        font-size: 60px;
+    }
+    .news h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 1023px) and (min-width: 992px) {
+    .overlay.overlay-2 .fa {
+        margin-top: 15px;
+    }
+    .header-hero h1 {
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .caption-img-holder .space150 {
+        display: none;
+    }
+    .overlay-circle {
+        width: 200px;
+    }
+    .overlay-circle .circle {
+        min-height: 200px;
+    }
+    .overlay-circle .circle-text {
+        bottom: 45px;
+    }
+    .slider-mid .get-started {
+        bottom: 0px;
+    }
+    .slider-mid .carousel-indicators {
+        top: 90px !important;
+    }
+    .slider-mid .carousel-caption {
+        top: 90px !important;
+    }
+    .slider-mid h1 {
+        font-size: 50px !important;
+        line-height: 50px !important;
+    }
+    .parallax-slide #home-carousel .carousel-indicators {
+        top: 75px;
+    }
+    .nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #home-carousel h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #home-carousel .carousel-indicators {
+        top: 16px;
+    }
+    .circle-text {
+        bottom: 85px;
+    }
+    .circle-text span {
+        font-size: 60px;
+    }
+    .news h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
+@media (min-width: 992px){
+    .navbar-toggle {
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    #video-hero #big-video-image {
+        height: 100% !important;
+    }
+    .no-photo-border .col-sm-6 {
+        border-right: 0px;
+    }
+    #post-slider .carousel-inner>.item {
+        padding: 0px;
+    }
+    .caption-img-holder .space150 {
+        display: none;
+    }
+    body.green-transparent .overlay-circle {
+        margin-top: 110px;
+    }
+    .header-hero img {
+        width: auto;
+        height: 100%;
+    }
+    #team-slides .carousel-inner {
+        width: 100%;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    .ts-caption {
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .team-indicators.carousel-indicators a {
+        width: 75px;
+        margin: 15px;
+    }
+    .team-indicators,.ts-caption,#team-slides .carousel-inner>.item>img {
+        width: 100%;
+    }
+    .team-ex-info {
+        margin: 40px 0px;
+    }
+    .team-extended {
+        margin-bottom: 15px;
+    }
+    .slider-mid .carousel-indicators {
+        top: 110px !important;
+    }
+    .parallax-slide #home-carousel .carousel-indicators {
+        top: 75px;
+    }
+    .portfolio-item > a > img {
+        width: 100%;
+    }
+    #big-video-image {
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        width: 100%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.in .menu-display {
+        display: block !important;
+    }
+    #menu-icon {
+        display: none;
+    }
+    .nav>li {
+        width: 100%;
+    }
+    .navbar-nav>li>a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #5abd7d;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 28px;
+        border: none;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background: #5fdd8c;
+        color: #fff;
+        border-radius: 0px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+        width: 26px;
+        height: 5px;
+    }
+    .navbar-toggle.collapsed .icon-bar{
+        background-color: #555555;
+    }
+    .navbar-toggle {
+        background: #5fdd8c;
+        border-radius: 0px;
+    }
+    .navbar-toggle.collapsed {
+        background: none;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar-nav ul {
+        display: block;
+        position: relative;
+        width: 100%;
+        border-radius: 0px;
+        border: 0px;
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height: 340px;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    .navbar-nav ul li > ul {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0px;
+        border-radius: 0px;
+        margin-top: 6px;
+        border: 0px;
+    }
+    .navbar-default .navbar-nav>li>a,.navbar-nav ul>li,.navbar-nav ul li > ul > li {
+        background: #555;
+        color: #fff;
+    }
+    .navbar-nav ul li > ul > li {
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+    }
+    .navbar-nav ul>li:hover {
+        background: #fff;
+        color: #5fdd8c;
+    }
+    .navbar-nav ul>li:hover a{
+        color: #5fdd8c;
+    }
+    .carousel-caption {
+        right: 50px;
+        left: 50px;
+    }
+    .life-timeline li {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .life-timeline:before {
+        width: 6px;
+        left: 49.5%;
+        top: 10%;
+        z-index: 8;
+        height: 80%;
+    }
+    .circle {
+        margin-bottom: 50px;
+    }
+    .team img {
+        width: 100%;
+    }
+    .news img {
+        width: 100%;
+    }
+    #ana-slides .carousel-control.right img{
+        right: 10px;
+    }
+    #ana-slides .carousel-control.left img{
+        left: 10px;
+    }
+    .clients .lft {
+        background: none;
+    }
+    .news-letter {
+        width: 100%;
+    }
+    .btn.nl-btn {
+        float: none;
+        width: auto;
+        margin-top: 20px;
+    }
+    .carousel-inner>.item>img {
+        width: auto;
+        height: 100%;
+    }
+    #home-carousel .carousel-indicators {
+        top: 30px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .singleVideo .overlay {
+        margin-top: 10px;
+    }
+    .arrow-circle {
+        width: 200px;
+    }
+    .arrow-circle .circle {
+        min-height: 200px;
+    }
+    .overlay.overlay-2 .fa {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .team-slides-count h5{
+        font-size: 24px;
+    }
+    .team-slides-count h4 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px){
+    .vh-overlay h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    #video-hero .vh-overlay {
+        padding-top: 110px;
+    }
+    .sp-project {
+        position: relative;
+    }
+    .arrow-circle {
+        clear: both;
+    }
+    div.pa img {
+        width: 100%;
+    }
+    .ps-desc .left,.ps-desc .center,.ps-desc .right {
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .ps-desc .center:before,.ps-desc .center:after {
+        display: none;
+    }
+    .news-tags a {
+        margin-bottom: 10px;
+    }
+    .sp-project img {
+        width: 100%;
+    }
+    .team-slides-count {
+        margin-top: 25px;
+    }
+    h1.title:after{
+        padding-left: 35px;
+    }
+    h1.title:before {
+        padding-right: 35px;
+    }
+    .online-chat {
+        margin-top: 25px;
+    }
+    .creative-callback {
+        margin: 25px 0px;
+    }
+    div.isotope-item {
+        width: 100% !important;
+    }
+    .portfolioFilter.white-green a,.portfolioFilter a {
+        margin-bottom: 15px;
+    }
+    .cct-desc {
+        margin-bottom: 50px;
+    }
+    .vh-overlay {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 767px) and (min-width: 736px) {
+}
+@media (max-width: 735px) and (min-width: 685px) {
+}
+@media (max-width: 684px) and (min-width: 568px) {
+    #home-carousel h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #home-carousel p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 684px) {
+    .video-placeholder h1 {
+        display: none;
+    }
+    .video-play-holder {
+        margin-top: 25px;
+    }
+    .news h1 {
+       font-size: 24px;
+        line-height: 24px;
+    }
+    .ana-caption h1 {
+        font-size: 24px;
+    }
+    .main-contact h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 567px) {
+    .small-callback input:nth-of-type(1),.small-form input:nth-of-type(odd) {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .small-callback input:nth-of-type(2),.small-form input:nth-of-type(even) {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .overlay-circle {
+        margin-top: 110px;
+    }
+    .singleVideo .overlay {
+        width: 190px;
+        height: 190px;
+        margin-top: 10px;
+    }
+    .overlay.overlay-2 .fa {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    #portfolio-slides .carousel-control {
+        display: none;
+    }
+    .header-hero h1 {
+        font-size: 36px;
+        line-height: 36px;
+        word-wrap: break-word;
+    }
+    .cct-desc {
+        padding: 0px 15px 35px 15px;
+    }
+    .vh-overlay h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .main-contact .lft {
+        width: 100%;
+    }
+    .main-contact .rgt {
+        width: 100%;
+        background-size: contain;
+    }
+    .main-contact {
+        background: none;
+    }
+
+}
+@media (max-width: 567px) and (min-width: 480px) {
+    #home-carousel h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    #home-carousel p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 479px) {
+    .main-contact.contact-2nd .rgt .shape-holder .shape,.bachi-contact .center .shape-holder .shape {
+        margin-left: 25px;
+    }
+    .singleVideo .overlay {
+        width: 125px;
+        height: 125px;
+    }
+    .singleVideo .overlay .fa {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #video-hero .vh-overlay h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    .pv-wrapper .holder {
+        padding-top: 10px;
+    }
+    .pv-wrapper .holder .overlay {
+        height: 150px;
+        width: 150px;
+    }
+    .web-projects h1 {
+        font-size: 24px;
+    }
+    .overlay.overlay-2 .fa {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .header-hero h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .more-blog .lft {
+        float: none;
+        width: 110px;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+    }
+    .more-blog .rgt {
+        float: left;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin-top: 25px;
+        position: relative;
+    }
+    .blog-stats {
+        border-right: 0px;
+    }
+    .blog-labels {
+        margin-bottom: 25px;
+    }
+    #home-carousel h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    #home-carousel p {
+        font-size: 14px;
+    }
+    .carousel-caption {
+        right: 15px;
+        left: 15px;
+    }
+    h1.title {
+        font-size: 18px;
+    }
+    .wwr-holder img {
+        max-width: 100%;
+    }
+    .life-long-title h1 {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .life-long-title {
+        top: -32px;
+    }
+    .project .project-title {
+        font-size: 36px;
+    }
+    .project-show-more {
+        top: 15%;
+    }
+    .project-circle {
+        padding: 15px;
+    }
+    .video-container img {
+        visibility: hidden;
+    }
+    .video-full {
+        display: none;
+    }
+    .video-play-holder {
+        margin-top: 0px;
+    }
+    .video-play-holder {
+        padding: 15px;
+    }
+    .news-overlay {
+        position: relative;
+    }
+}
+@media (max-width: 479px) and (min-width: 414px) {
+}
+@media (max-width: 413px) and (min-width: 375px) {
+}
+@media (max-width: 374px) and (min-width: 320px) {
+}

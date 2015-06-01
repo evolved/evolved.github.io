@@ -1,0 +1,138 @@
+/** ********************************************** **
+	@Author			Acto Design
+	@Website		http://actodesign.com/
+	@Created	11:55 AM Monday, May 11, 2015
+	TABLE CONTENTS
+	-------------------------------
+		01. Coffee Color General
+*************************************************** **/
+/** 01. Coffee Color General
+ **************************************************************** **/
+.carousel-green-bg {
+    background: rgba(119, 74, 47, 0.8);
+}
+.wwr ul li .icon-holder {
+    color: #ae7d55;
+}
+.service-head {
+    color: #ffd852;
+}
+.life-timeline:before {
+    background: #ae7d55;
+}
+.year-holder {
+    background: url("../images/ui-elements/life-line-cofee.png") no-repeat center center;
+}
+.vector-bg.coffee {
+    background: rgba(119, 74, 47, 0.8);
+}
+.service-head {
+    background: url("../images/ui-elements/service-head-coffee.png") no-repeat center;
+}
+.project.even .project-arrow .base,.project.odd .project-arrow .base {
+    background: url("../images/project-base-coffee.png") repeat;
+}
+.project.even .project-arrow .arrow {
+    background: url("../images/project-left-coffee.png") no-repeat left center;
+    background-size: cover;
+}
+.project.odd .project-arrow .arrow {
+    background: url("../images/project-right-coffee.png") no-repeat right center;
+    background-size: cover;
+}
+.project-circle,.video-play-holder {
+    background: rgba(119, 87, 68, 0.9);
+}
+.project-type {
+    background: #b48d55;
+}
+.project-border {
+    background: url("../images/project-border-coffee.png") repeat-x;
+}
+.play-video {
+    background: url("../images/ui-elements/btn-light-yellow.png") no-repeat center;
+    color: #775744 !important;
+}
+.team-overlay {
+    background: url("../images/ui-elements/team-overlay-coffee.png") no-repeat center;
+    background-size: 100%;
+}
+.btn.btn-light-coffee .fa {
+    font-size: 24px;
+    margin-top: 8px;
+}
+.btn.btn-light-coffee {
+    background: url("../images/ui-elements/btn-coffee.png") no-repeat center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    width: 115px;
+    height: 115px;
+    border: 0px;
+    outline: none;
+    word-wrap: break-word;
+    white-space: pre-line;
+    padding-top: 35px;
+    text-shadow: none;
+    box-shadow: none;
+}
+.news-date {
+    border-bottom: 2px solid #ffd852;
+}
+.news-overlay {
+    background: rgba(68, 46, 27, 0.75);
+}
+.news-overlay:hover {
+    background: rgba(68, 46, 27, 0.90);
+}
+#ana-news .owl-controls .owl-page span {
+    background: #ffd852 !important;
+}
+#ana-news .owl-controls .owl-page.active {
+    border: 1px solid #ffd852;
+}
+.ana-news h3 {
+    border-bottom: 2px solid #ffd852;
+}
+.caption-tag {
+    background: #ffd852;
+    color: #644113 !important;
+}
+.ana-overlay {
+    background: #442e1b;
+}
+.btn-success {
+    background: #ae7d55;
+    border-color: #ae7d55;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #644113;
+    border-color: #644113;
+}
+.main-contact .rgt .shape-holder .shape {
+    background: url("../images/ui-elements/team-overlay-coffee.png") no-repeat center;
+}
+.btn.online {
+    background: #ffd852;
+    color: #644113;
+}
+.main-contact .rgt {
+    background: url("../images/ui-elements/contact-shape-coffee.png") no-repeat center bottom;
+    background-size: 85%;
+}
+.btn.btn-border-purple-light {
+    color: #644113;
+    border: 1px solid #644113;
+}
+.btn.btn-border-purple-light:hover {
+    background: #644113;
+    color: #fff;
+}
+.social a:hover {
+    background: #644113;
+}
+#map {
+    border-bottom: 2px solid #644113;
+}

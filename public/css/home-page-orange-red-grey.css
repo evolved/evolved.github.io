@@ -1,0 +1,186 @@
+/** ********************************************** **
+	@Author			Acto Design
+	@Website		http://actodesign.com/
+	@Created	11:55 AM Monday, May 11, 2015
+	TABLE CONTENTS
+	-------------------------------
+		01. Orange-Red-Grey Color General
+*************************************************** **/
+/** 01. Orange-Red-Grey Color General
+ **************************************************************** **/
+body {
+    padding-top: 0px;
+}
+.navbar-default {
+    background: rgba(23, 25, 86, 0);
+    border-color: rgba(23, 25, 86, 0);
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.patty,.patty:before,.patty:after {
+    background: #d06721;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.carousel-green-bg {
+    background: rgba(0, 0, 0, 0.70);
+}
+.services-box .fa {
+    color: #c24949;
+}
+.services-box span {
+    background: #c24949;
+}
+.services-box:hover .fa {
+    color: #d06721;
+}
+.services-box:hover span {
+    background: #d06721;
+}
+.portfolioFilter.white-green a.current, .portfolioFilter.white-green a:hover {
+    background: #fff;
+    color: #c24949 !important;
+    border-color: #fff;
+}
+.portfolioFilter.white-green a {
+    background: #c24949;
+    color: #fff;
+    border-color: #c24949;
+}
+.portfolio-item .overlay {
+    background: url("../images/ui-elements/team-overlay-orange.png") no-repeat center;
+    background-size: contain;
+}
+.play-btn {
+    background: url("../images/ui-elements/team-overlay-orange.png") no-repeat center;
+    background-size: contain;
+}
+.vh-overlay .vh-btn {
+    background: #d06721;
+}
+.team-overlay {
+    background: url("../images/ui-elements/team-overlay-orange.png") no-repeat center;
+    background-size: 100%;
+}
+.btn-light-orange .fa {
+    font-size: 24px;
+    margin-top: 8px;
+}
+.news-date {
+    border-bottom: 2px solid #d06721;
+}
+.news-overlay {
+    background: rgba(15, 15, 77, 0.75);
+}
+.news-overlay:hover {
+    background: rgba(15, 15, 77, 0.90);
+}
+#ana-news .owl-controls .owl-page span {
+    background: #d06721 !important;
+}
+#ana-news .owl-controls .owl-page.active {
+    border: 1px solid #d06721;
+}
+.ana-news h3 {
+    border-bottom: 2px solid #d06721;
+}
+.caption-tag {
+    background: #d06721;
+    color: #fff !important;
+}
+.cct-desc div:before {
+    color: #676563;
+}
+#general-single .owl-controls .owl-page span {
+    background: #d06721 !important;
+}
+#general-single .owl-controls .owl-page.active {
+    border: 1px solid #d06721;
+}
+.ana-overlay {
+    background: #0f0f4d;
+}
+.btn-success {
+    background: #d06721;
+    border-color: #d06721;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #d06721;
+    border-color: #d06721;
+}
+.main-contact .rgt .shape-holder .shape {
+    background: url("../images/ui-elements/team-overlay-orange.png") no-repeat center;
+}
+.btn.online {
+    background: #aa232b;
+    color: #fff;
+}
+.main-contact .rgt {
+    background: url("../images/ui-elements/contact-shape-orange.png") no-repeat center bottom;
+    background-size: 85%;
+}
+.btn.btn-border-purple-light {
+    color: #ff7777;
+    border: 1px solid #ff7777;
+}
+.btn.btn-border-purple-light:hover {
+    background: #ff7777;
+    color: #fff;
+}
+.social a:hover {
+    background: #ff7777;
+}
+#map {
+    border-bottom: 2px solid #8485b1;
+}
+footer {
+    background: #7d7d7d;
+    color: #fff;
+}
+footer .widget h4,footer .widget ul a,footer h4 {
+    color: #fff;
+}
+.copyright {
+    text-align: center;
+}
+.copyright p,.copyright a {
+    color: #858585;
+}
+.btn-buy {
+    background: #da712c;
+}
+.btn-buy:hover {
+    background: none;
+    color: #da712c;
+    border-color: #da712c;
+}
+.btn.nl-btn.nl-btn2 {
+    color: #da712c !important;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    #home-carousel .carousel-caption {
+        top: 75px;
+    }
+    .get-started {
+        bottom: 10px;
+    }
+    #home-carousel .carousel-indicators {
+        top: 50px;
+        z-index: 9999;
+    }
+}
+@media (max-width: 991px){
+    #home-carousel .carousel-indicators {
+        top: 75px;
+        z-index: 999;
+    }
+    .navbar-toggle.collapsed .icon-bar {
+        background-color: #da712c;
+    }
+}

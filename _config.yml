@@ -7,15 +7,31 @@ permalink:        pretty
 
 # Setup
 title:            evolved.io
-tagline:          'A Jekyll theme'
-description:      'Evolved is a full service digital agency headquartered in Germany. We transform brands and build businesses.'
+tagline:          "Creative engineers building sophisticated products."
+description:      "Evolved is a full service digital agency headquartered in Germany, Dortmund. We transform brands and build businesses."
 url:              http://www.evolved.io
 
-author:
-  name:           'Dennis Gaidel'
-  url:            https://twitter.com/k1ckedinthehead
+authors:
+  dennis:
+    name:           Dennis Gaidel
+    display_name:		Dennis
+    gravatar:				
+    github:					https://github.com/kickedinthehead
+    url:            https://twitter.com/k1ckedinthehead
+  sascha:
+    name:           Sascha Schwabbauer
+    display_name:		Sascha
+    gravatar:				
+    github:					https://github.com/sascha
+    url:            https://twitter.com/_SaschaS
+  malte:
+    name:           Malte Baumann
+    display_name:		Malte
+    gravatar:				
+    github:					https://github.com/maltebaumann
+    url:            https://twitter.com/codingdivision
 
-paginate:         5
+paginate:         9
 
 # Custom vars
 version:          2.0.0

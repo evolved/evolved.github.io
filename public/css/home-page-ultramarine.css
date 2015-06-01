@@ -1,0 +1,155 @@
+/** ********************************************** **
+	@Author			Acto Design
+	@Website		http://actodesign.com/
+	@Created	11:55 AM Monday, May 11, 2015
+	TABLE CONTENTS
+	-------------------------------
+		01. Ultramarine Color General
+*************************************************** **/
+/** 01. Ultramarine Color General
+ **************************************************************** **/
+.navbar-default {
+    background: #171956;
+    border-color: #171956;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.patty,.patty:before,.patty:after {
+    background: #7daae1;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.carousel-green-bg {
+    background: rgba(16, 16, 84, 0.8);
+}
+.wwr ul li .icon-holder {
+    color: #8485b1;
+}
+.service-head {
+    color: #8485b1;
+}
+.life-timeline:before {
+    background: #8485b1;
+}
+.year-holder {
+    background: url("../images/ui-elements/life-line-ultra.png") no-repeat center center;
+}
+.vector-bg.ultra {
+    background: rgba(16, 16, 84, 0.8);
+}
+.service-head {
+    background: url("../images/ui-elements/service-head-ultra.png") no-repeat center;
+}
+.project.even .project-arrow .base,.project.odd .project-arrow .base {
+    background: url("../images/project-base-ultra.png") repeat;
+}
+.project.even .project-arrow .arrow {
+    background: url("../images/project-left-ultra.png") no-repeat left center;
+    background-size: cover;
+}
+.project.odd .project-arrow .arrow {
+    background: url("../images/project-right-ultra.png") no-repeat right center;
+    background-size: cover;
+}
+.project-circle,.video-play-holder {
+    background: rgba(66, 66, 137, 0.90);
+}
+.project-type {
+    background: #373778;
+}
+.project-border {
+    background: url("../images/project-border-ultra.png") repeat-x;
+}
+.play-video {
+    background: url("../images/ui-elements/btn-light-pink.png") no-repeat center;
+    color: #fff !important;
+}
+.team-overlay {
+    background: url("../images/ui-elements/team-overlay-ultra.png") no-repeat center;
+    background-size: 100%;
+}
+.news-date {
+    border-bottom: 2px solid #ff7777;
+}
+.news-overlay {
+    background: rgba(15, 15, 77, 0.75);
+}
+.news-overlay:hover {
+    background: rgba(15, 15, 77, 0.90);
+}
+#ana-news .owl-controls .owl-page span {
+    background: #ff7777 !important;
+}
+#ana-news .owl-controls .owl-page.active {
+    border: 1px solid #ff7777;
+}
+.ana-news h3 {
+    border-bottom: 2px solid #ff7777;
+}
+.caption-tag {
+    background: #ff7777;
+    color: #fff !important;
+}
+.ana-overlay {
+    background: #0f0f4d;
+}
+.btn-success {
+    background: #ff7777;
+    border-color: #ff7777;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #ff7171;
+    border-color: #ff7171;
+}
+.main-contact .rgt .shape-holder .shape {
+    background: url("../images/ui-elements/team-overlay-ultra.png") no-repeat center;
+}
+.btn.online {
+    background: #ff7777;
+    color: #fff;
+}
+.main-contact .rgt {
+    background: url("../images/ui-elements/contact-shape-ultra.png") no-repeat center bottom;
+    background-size: 85%;
+}
+.btn.btn-border-purple-light {
+    color: #ff7777;
+    border: 1px solid #ff7777;
+}
+.btn.btn-border-purple-light:hover {
+    background: #ff7777;
+    color: #fff;
+}
+.social a:hover {
+    background: #ff7777;
+}
+#map {
+    border-bottom: 2px solid #8485b1;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    #home-carousel .carousel-caption {
+        top: 75px;
+    }
+    .get-started {
+        bottom: 10px;
+    }
+    #home-carousel .carousel-indicators {
+        top: 50px;
+        z-index: 9999;
+    }
+}
+@media (max-width: 991px){
+    #home-carousel .carousel-indicators {
+        top: 75px;
+        z-index: 999;
+    }
+    .navbar-toggle.collapsed .icon-bar {
+        background-color: #fff;
+    }
+}
