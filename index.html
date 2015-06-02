@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <!-- blog posts -->
     <div id="cbg-masonry">
-      <div class="space50"></div>
+      <div class="space50"></div> 
       {% for post in paginator.posts %}
         {% assign author = site.authors[post.author] %}
         {% assign mod = forloop.index | modulo: 3 %}
@@ -19,9 +19,7 @@ layout: default
             <div class="cbg">
               <div class="cbg-meta">
                 <div class="cbg-category">
-                  {% for category in post.categories %}
-                    <span>{{ category }}</span>
-                  {% endfor %}
+                  {{ post.categories | join: ', ' }}
                 </div>
               </div>
               <h3><a href="{{post.url}}">{{ post.title }}</a></h3>

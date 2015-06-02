@@ -137,15 +137,15 @@ jQuery(window).load(function(){
  Used: - For Grouping:  <a data-rel="prettyPhoto[portfolio-group]">
  - For Single Image: <a data-rel="prettyPhoto">
  */
-jQuery('a[data-rel]').each(function() {
-    jQuery(this).attr('rel', jQuery(this).data('rel'));
-});
-jQuery("a[rel^='prettyPhoto']").prettyPhoto({
-    theme:'light_square',
-    allow_resize: true, /* Resize the photos bigger than viewport. true/false */
-    default_width: 500,
-    default_height: 344
-});
+// jQuery('a[data-rel]').each(function() {
+//     jQuery(this).attr('rel', jQuery(this).data('rel'));
+// });
+// jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+//     theme:'light_square',
+//     allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+//     default_width: 500,
+//     default_height: 344
+// });
 //smooth scroll to top
 jQuery('#topo').on('click', function(event){
     event.preventDefault();
