@@ -7,6 +7,7 @@ TABLE CONTENTS
 	04. Title/Headings
 	05. Buttons
 	06. General Styling
+    07. Retina
 ---------------------------
  ** ************************************* **/
 /**	01. Font & Background Colors
@@ -1135,4 +1136,17 @@ blockquote.qs-3:before {
 }
 .tab-content {
     margin-top: 25px;
+}
+
+/** ************************************* **/
+/** 07. Retina
+***************************************** **/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2.0),
+screen and (-moz-min-device-pixel-ratio: 2.0),
+screen and (min-device-pixel-ratio: 2.0) {
+    .pagination.pagination-style4 a.active, .pagination.pagination-style4 a:hover,.pagination.pagination-style4 a:hover .fa {
+        background: url("../images/ui-elements/pagination-style3@2x.png") no-repeat center center;
+        background-size: 52px 52px;
+    }
 }

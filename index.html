@@ -41,18 +41,6 @@ layout: default
     <div class="clearfix"></div>
     <div class="space50"></div>
     <!-- pagination -->
-    <!-- <div class="text-center">
-        {% if paginator.next_page %}
-          <a class="pagination-item older btn btn-border-purple-light" href="/page{{paginator.next_page}}">Older</a>
-        {% endif %}
-        {% if paginator.previous_page %}
-          {% if paginator.page == 2 %}
-            <a class="pagination-item newer btn btn-border-purple-light" href="/">Newer</a>
-          {% else %}
-            <a class="pagination-item newer btn btn-border-purple-light" href="/page{{paginator.previous_page}}">Newer</a>
-          {% endif %}
-        {% endif %}
-    </div> -->
     <div class="text-center">
       {% if paginator.total_pages > 1 %}
       <div class="pagination pagination-style4">

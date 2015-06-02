@@ -1,17 +1,4 @@
 jQuery(document).ready(function() {
-    
-    // Menu Toggle
-    jQuery( "#menu-icon" ).click(function() {
-        if (jQuery("#menu-icon").hasClass("menu-normal")) {
-            jQuery( ".menu-display" ).show("slow");
-            jQuery("#menu-icon").addClass("menu-active");
-            jQuery("#menu-icon").removeClass("menu-normal");
-        } else {
-            jQuery( ".menu-display" ).hide( "slow");
-            jQuery("#menu-icon").removeClass("menu-active");
-            jQuery("#menu-icon").addClass("menu-normal");
-        }
-    });
 
     // Parallax
     jQuery.stellar({
@@ -40,16 +27,6 @@ jQuery(document).ready(function() {
     // WOW
     wow = new WOW({animateClass: "animated", offset: 100});
     wow.init();
-
-    // Home Carousel
-    jQuery("#home-carousel").carousel({
-        interval: 50000
-    });
-
-    // Team Slides
-    jQuery("#team-slides").carousel({
-        interval: 50000
-    });
 
     // Google Map
     jQuery("#map").gmap3({

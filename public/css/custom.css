@@ -2865,12 +2865,12 @@ footer.light-purple .divider {
     font-size: 21px;
 }
 #topo {
-    background: url("../images/ui-elements/top-icon.png") no-repeat center;
+    /*background: url("../images/ui-elements/top-icon.png") no-repeat center;
     display: inline-block;
     width: 70px;
-    height: 70px;
+    height: 70px;*/
     cursor: pointer;
-    z-index: 99;
+    /*z-index: 99;*/
 }
 .news-letter3 {
     width: 100%;
