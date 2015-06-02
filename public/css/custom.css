@@ -68,8 +68,8 @@ section {
 }
 .navbar-default .navbar-brand {
     color: #000;
-    font-size: 35px;
-    font-family: 'Conv_ufonts.com_geometric-415-black-bt';
+    /*font-family: 'Conv_ufonts.com_geometric-415-black-bt';*/
+    font: 20px/1 "HUGEAvantGardeBold", sans-serif;
     height: auto;
     padding: 30px 15px;
 }
@@ -224,6 +224,12 @@ section {
 /** ************************************* **/
 /**	03. General Styling
 *************************************************** **/
+
+.evolved {
+    color: #000;
+    font: 16px/1 "HUGEAvantGardeBold", sans-serif;
+}
+
 /** Home Carousel **/
 .carousel-inner>.item>img {
     width: 100%;
