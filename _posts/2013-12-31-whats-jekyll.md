@@ -2,7 +2,7 @@
 layout: post
 title: What's Jekyll?
 date: 2014-02-13 23:07:02 +0530
-author: dennis
+author: sascha
 categories: [Clojure, Functional Programming]
 comments: true
 ---

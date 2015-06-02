@@ -1,16 +1,13 @@
 /** ************************************* **
-	@Author			Acto Design
-	@Website		http://actodesign.com
-	@Created	10:35 PM Monday, May 11, 2015
-	TABLE CONTENTS
-	---------------------------
-		01. Font & Background Colors
-		02. Font Sizes
-		03. Spacing/Dividers
-		04. Title/Headings
-		05. Buttons
-		06. General Styling
-	---------------------------
+TABLE CONTENTS
+---------------------------
+	01. Font & Background Colors
+	02. Font Sizes
+	03. Spacing/Dividers
+	04. Title/Headings
+	05. Buttons
+	06. General Styling
+---------------------------
  ** ************************************* **/
 /**	01. Font & Background Colors
 *************************************************** **/
@@ -312,7 +309,7 @@ h1.title:after {
 /**	05. Buttons
 *************************************************** **/
 .btn.btn-light-purple {
-    background: url("images/ui-elements/btn-light-purple.png") no-repeat center;
+    background: url("../images/ui-elements/btn-light-purple.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -332,7 +329,7 @@ h1.title:after {
     text-shadow: none;
 }
 .btn.btn-light-purple:hover {
-    background: url("images/ui-elements/btn-dark-purple.png") no-repeat center;
+    background: url("../images/ui-elements/btn-dark-purple.png") no-repeat center;
 }
 .btn.btn-border-purple-light {
     color: #7b34b7;
@@ -423,7 +420,7 @@ h1.title:after {
 }
 /** Coffee Colors **/
 .btn.btn-light-yellow {
-    background: url("images/ui-elements/btn-light-yellow.png") no-repeat center;
+    background: url("../images/ui-elements/btn-light-yellow.png") no-repeat center;
     color: #543618;
     text-transform: uppercase;
     font-size: 14px;
@@ -439,7 +436,7 @@ h1.title:after {
     box-shadow: none;
 }
 .btn.btn-light-pink {
-    background: url("images/ui-elements/btn-light-pink.png") no-repeat center;
+    background: url("../images/ui-elements/btn-light-pink.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -557,7 +554,7 @@ h1.title:after {
     margin-top: 8px;
 }
 .btn.btn-light-coffee {
-    background: url("images/ui-elements/btn-coffee.png") no-repeat center;
+    background: url("../images/ui-elements/btn-coffee.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -585,7 +582,7 @@ h1.title:after {
     margin: 10px 0px;
 }
 .btn.btn-light-orange {
-    background: url("images/ui-elements/btn-light-orange.png") no-repeat center;
+    background: url("../images/ui-elements/btn-light-orange.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -640,7 +637,7 @@ h1.title:after {
     margin-bottom: 60px;
 }
 .btn.btn-light-green {
-    background: url("images/ui-elements/btn-green.png") no-repeat center;
+    background: url("../images/ui-elements/btn-green.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -673,7 +670,7 @@ h1.title:after {
     color: #fff;
 }
 .btn.btn-load-more-purple {
-    background: url("images/ui-elements/btn-load-more.png") no-repeat center;
+    background: url("../images/ui-elements/btn-load-more.png") no-repeat center;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
@@ -840,26 +837,26 @@ h1.title:after {
     line-height: 52px;
 }
 .pagination.pagination-style1 a.active, .pagination.pagination-style1 a:hover {
-    background: url("images/ui-elements/portfolio-pagination.png") no-repeat center center;
+    background: url("../images/ui-elements/portfolio-pagination.png") no-repeat center center;
     color: #5abd7d;
 }
 .pagination.pagination-style2 a.active, .pagination.pagination-style2 a:hover {
-    background: url("images/ui-elements/pagination-style2.png") no-repeat center center;
+    background: url("../images/ui-elements/pagination-style2.png") no-repeat center center;
     color: #7b34b7;
 }
 .pagination.pagination-style3 a.active, .pagination.pagination-style3 a:hover {
-    background: url("images/ui-elements/pagination-style3.png") no-repeat center center;
+    background: url("../images/ui-elements/pagination-style3.png") no-repeat center center;
     color: #fff;
 }
 .pagination.pagination-style4 a.active, .pagination.pagination-style4 a:hover,.pagination.pagination-style4 a:hover .fa {
-    background: url("images/ui-elements/pagination-style3.png") no-repeat center center;
+    background: url("../images/ui-elements/pagination-style3.png") no-repeat center center;
     color: #fff !important;
 }
 .pagination.pagination-style4 .fa {
     color: #7b34b7;
 }
 .pagination.pagination-style5 a.active, .pagination.pagination-style5 a:hover {
-    background: url("images/ui-elements/pagination-style3.png") no-repeat center center;
+    background: url("../images/ui-elements/pagination-style3.png") no-repeat center center;
     color: #fff;
 }
 .pagination.pagination-style6 {

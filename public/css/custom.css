@@ -1,13 +1,10 @@
 /** ************************************* **
-	@Author			Acto Design
-	@Website		http://actodesign.com
-	@Created	10:35 PM Monday, May 11, 2015
-	TABLE CONTENTS
-	---------------------------
-		01. Global Styling
-		02. Header
-		03. General Styling
-	---------------------------
+TABLE CONTENTS
+---------------------------
+	01. Global Styling
+	02. Header
+	03. General Styling
+---------------------------
  ** ************************************* **/
 /**	01. Global Styling
 *************************************************** **/
@@ -324,7 +321,7 @@ section {
     background-size: 100%;
     z-index: 9;
 }
-.wwr-holder img {
+/*.wwr-holder img {
     filter: gray;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -342,7 +339,7 @@ section {
     -moz-filter: grayscale(0%);
     -o-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
-}
+}*/
 .arrow-bg {
     background: url("../images/ui-elements/wwr-arrow.png");
     background-position: top right;
@@ -1370,6 +1367,10 @@ footer p {
 .blog-post {
     font-size: 17px;
 }
+.blog-post .wwr-holder>img {
+    width: 175px;
+    height: 175px;
+}
 .more-blog {
     float: left;
     width: 100%;
@@ -1490,8 +1491,9 @@ footer p {
     margin-bottom: 50px;
 }
 .cbg-category {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-size: 17px;*/
+    font-size: 12px;
     text-transform: uppercase;
     color: #7b34b7;
     position: relative;
@@ -1515,7 +1517,7 @@ footer p {
 .cbg-meta {
     float: left;
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .cbg-likes {
     float: right;
@@ -1530,6 +1532,10 @@ footer p {
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
+}
+.cbg h3 > a:hover {
+    color: white;
+    background-color: #77d990;
 }
 .cbg p {
     color: #838383;
@@ -2847,10 +2853,8 @@ footer.light-purple .divider {
     display: inline-block;
     width: 70px;
     height: 70px;
-    position: absolute;
     cursor: pointer;
     z-index: 99;
-    left: 15px;
 }
 .news-letter3 {
     width: 100%;
@@ -3356,13 +3360,13 @@ body.green-transparent .overlay-circle {
 #contact-parallax .callback-title h4 {
     background: rgba(68, 32, 98, 1);
 }
-body.green-transparent footer.light-purple .copyright {
+footer.light-purple .copyright {
     background: #fff;
     margin-top: 20px;
     padding-bottom: 15px;
     color: #858585;
 }
-body.green-transparent footer.light-purple .copyright a {
+footer.light-purple .copyright a {
     color: #858585;
 }
 .light-purple p.number .fa,.light-purple p.address .fa {

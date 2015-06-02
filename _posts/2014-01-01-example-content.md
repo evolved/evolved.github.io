@@ -3,7 +3,7 @@ layout: post
 title: Example content
 date: 2014-02-13 23:07:02 +0530
 author: dennis
-categories: [Clojure]
+categories: [R, Statistics, Data Mining]
 comments: true
 ---
 

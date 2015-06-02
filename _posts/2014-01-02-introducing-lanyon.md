@@ -2,8 +2,8 @@
 layout: post
 title: Introducing Lanyon
 date: 2014-02-13 23:07:02 +0530
-author: dennis
-categories: [Clojure]
+author: malte
+categories: [C++, Embedded Systems]
 comments: true
 ---
 

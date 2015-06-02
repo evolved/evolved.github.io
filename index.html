@@ -6,6 +6,7 @@ layout: default
   <div class="container">
     <!-- blog posts -->
     <div id="cbg-masonry">
+      <div class="space50"></div>
       {% for post in paginator.posts %}
         {% assign author = site.authors[post.author] %}
         {% assign mod = forloop.index | modulo: 3 %}

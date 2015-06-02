@@ -2,7 +2,7 @@
 layout: post
 title: "Using What You Already Have"
 date: 2014-02-13 23:07:02 +0530
-author: dennis
+author: sascha
 categories: [Clojure]
 comments: true
 ---

@@ -6,32 +6,38 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            evolved.io
-tagline:          "Creative engineers building sophisticated products."
-description:      "Evolved is a full service digital agency headquartered in Germany, Dortmund. We transform brands and build businesses."
+title:            EVOLVED
+tagline:          "We transform brands and build businesses."
+description:      "EVOLVED is a full service digital agency headquartered in Germany, Dortmund."
 url:              http://www.evolved.io
 
 authors:
   dennis:
     name:           Dennis Gaidel
     display_name:		Dennis
-    gravatar:				
+    bio:            "University Student (Master's in CS with minor in Theoretical Medicine), Photographer & Software Engineer"
+    image:          dennis.jpg
     github:					https://github.com/kickedinthehead
-    url:            https://twitter.com/k1ckedinthehead
+    twitter:        https://twitter.com/k1ckedinthehead
+    linkedin:       https://www.linkedin.com/profile/view?id=317772115
   sascha:
     name:           Sascha Schwabbauer
     display_name:		Sascha
-    gravatar:				
+    bio:            "computer science student, iOS developer at @9elements, fitness and health enthusiast"
+    image:          sascha.jpg
     github:					https://github.com/sascha
-    url:            https://twitter.com/_SaschaS
+    twitter:        https://twitter.com/_SaschaS
+    linkedin:       https://www.linkedin.com/profile/view?id=4493681
   malte:
     name:           Malte Baumann
     display_name:		Malte
-    gravatar:				
+    bio:            "iOS Developer, Computer Science student"
+    image:          malte.jpg
     github:					https://github.com/maltebaumann
-    url:            https://twitter.com/codingdivision
+    twitter:        https://twitter.com/codingdivision
+    linkedin:       https://www.linkedin.com/profile/view?id=238287744
 
-paginate:         9
+paginate:         6
 
 # Custom vars
 version:          2.0.0
