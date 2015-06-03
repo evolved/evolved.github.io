@@ -159,7 +159,7 @@
     }
     .header-hero img {
         width: auto;
-        height: 100%;
+        height: auto;
     }
     #team-slides .carousel-inner {
         width: 100%;
