@@ -1149,4 +1149,10 @@ screen and (min-device-pixel-ratio: 2.0) {
         background: url("../images/ui-elements/pagination-style3@2x.png") no-repeat center center;
         background-size: 52px 52px;
     }
+    h1.title:before {
+        background: url("../images/ui-elements/title-cross-dark@2x.png") no-repeat center;
+    }
+    h1.title:after {
+        background: url("../images/ui-elements/title-cross-dark@2x.png") no-repeat center;
+    }
 }
