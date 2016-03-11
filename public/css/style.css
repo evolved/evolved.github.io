@@ -257,7 +257,7 @@ body {
 /**	04. Title/headings
 *************************************************** **/
 h1.title {
-    font-size: 40px;
+    font-size: 30px;
     color: #2a2a2a;
     font-weight: 700;
     margin-bottom: 50px;
@@ -269,7 +269,7 @@ h1.title.white {
 h1.title:before {
     content: "";
     background: url("../images/ui-elements/title-cross-dark.png");
-    background: url("../images/ui-elements/title-cross-dark.svg"), 
+    background: url("../images/ui-elements/title-cross-dark.svg"),
         linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center;
@@ -303,7 +303,7 @@ h1.title.white:after {
 h1.title:after {
     content: "";
     background: url("../images/ui-elements/title-cross-dark.png");
-    background: url("../images/ui-elements/title-cross-dark.svg"), 
+    background: url("../images/ui-elements/title-cross-dark.svg"),
         linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-position: center;
@@ -313,6 +313,9 @@ h1.title:after {
     color: #2a2a2a;
     padding-left: 65px;
     padding-top: 0px;
+}
+h3 {
+    font-size: 16px;
 }
 /** ************************************* **/
 /**	05. Buttons
@@ -850,7 +853,6 @@ h1.title:after {
     color: #5abd7d;
 }
 .pagination.pagination-style2 a.active, .pagination.pagination-style2 a:hover {
-    background: url("../images/ui-elements/pagination-style2.png") no-repeat center center;
     color: #7b34b7;
 }
 .pagination.pagination-style3 a.active, .pagination.pagination-style3 a:hover {
@@ -1094,7 +1096,6 @@ blockquote.qs-2:before {
     width: 100px;
     height: 100px;
     color: #7b34b7;
-    font-size: 28px;
     position: absolute;
     left: 0px;
     top: 22px;
@@ -1116,7 +1117,6 @@ blockquote.qs-3:before {
     width: 100%;
     height: auto;
     color: #fff;
-    font-size: 28px;
     float: left;
 }
 /** Tabs Style **/

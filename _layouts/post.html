@@ -7,23 +7,17 @@ layout: default
 <!-- Post -->
 <section>
   <div class="container">
-    <div class="space50"></div>
-
-    <a href="/" class="more-blog-link cn-link">
-        <i class="fa fa-arrow-left"></i>
-        <span>Back To Posts</span>
-    </a>
+    <div class="space10"></div>
 
     <div class="blog-post">
       <!-- <span class="post-date">{{ page.date | date_to_string }}</span> -->
       <div class="ana">
           <h2>{{ page.title }}</h2>
-          <div>
+          <div class="categories">
             {% for category in page.categories %}
             <span href="#" class="link-fill-green">{{ category }}</span>
             {% endfor %}
           </div>
-          <div class="space30"></div>
       </div>
 
       <div class="row">

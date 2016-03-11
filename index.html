@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <!-- blog posts -->
     <div id="cbg-masonry">
-      <div class="space50"></div> 
+      <div class="space50"></div>
       {% for post in paginator.posts %}
         {% assign author = site.authors[post.author] %}
         {% assign mod = forloop.index | modulo: 3 %}
@@ -42,7 +42,7 @@ layout: default
     <!-- pagination -->
     <div class="text-center">
       {% if paginator.total_pages > 1 %}
-      <div class="pagination pagination-style4">
+      <div class="pagination pagination-style1">
         {% if paginator.previous_page %}
           <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
             <i class="fa fa-chevron-left"></i>
